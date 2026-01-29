@@ -1,0 +1,138 @@
+# =============================================
+# Node.js / Frontend (Vite + React)
+# =============================================
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+jspm_packages/
+
+# Build output
+dist/
+build/
+.next/
+out/
+bin/
+obj/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cache
+.cache/
+.parcel-cache/
+.vite/
+.eslintcache
+
+# =============================================
+# Python / Backend
+# =============================================
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+python_env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+var/
+wheels/
+*.whl
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+pytestdebug.log
+
+# Flask / Django
+instance/
+*.db
+*.sqlite3
+
+# =============================================
+# IDE / Editors
+# =============================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (PyCharm, WebStorm, etc.)
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# =============================================
+# OS Generated Files
+# =============================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# =============================================
+# Misc
+# =============================================
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Lock files (optional - some prefer to commit these)
+# package-lock.json
+# yarn.lock
+
+# Uploads and Assets
+uploads/
+assets/cached/
+*.log
